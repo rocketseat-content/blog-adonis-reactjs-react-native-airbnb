@@ -1,7 +1,7 @@
 {
 	"_type": "export",
 	"__export_format": 3,
-	"__export_date": "2018-07-03T01:43:40.234Z",
+	"__export_date": "2018-07-03T02:22:17.227Z",
 	"__export_source": "insomnia.desktop.app:v5.16.6",
 	"resources": [
 		{
@@ -84,11 +84,61 @@
 			"_type": "request"
 		},
 		{
+			"_id": "req_3b4c42b4df754c3fbd73862a004397c6",
+			"authentication": {
+				"token": "{{ token  }}",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1530583491069,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1530359554007,
+			"method": "GET",
+			"modified": 1530583866610,
+			"name": "Show",
+			"parameters": [],
+			"parentId": "fld_224592c38c644e749adb5ccb4bc463bb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/properties/1",
+			"_type": "request"
+		},
+		{
+			"_id": "req_f587175dde1e421ab805ba0acbe04f31",
+			"authentication": {
+				"token": "{{ token  }}",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1530584039948,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1530250141576,
+			"method": "DELETE",
+			"modified": 1530584109626,
+			"name": "Delete",
+			"parameters": [],
+			"parentId": "fld_224592c38c644e749adb5ccb4bc463bb",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "\t{{ base_url  }}/properties/1",
+			"_type": "request"
+		},
+		{
 			"_id": "req_9d5a1d072a7445009e1af8bfecfae87b",
 			"authentication": {},
 			"body": {
 				"mimeType": "application/json",
-				"text": "{\n\t\"username\": \"diego3g\",\n\t\"email\": \"diego@rocketseat.com.br\",\n\t\"password\": \"123456\"\n}"
+				"text": "{\n\t\"username\": \"diego3g3\",\n\t\"email\": \"diego3@rocketseat.com.br\",\n\t\"password\": \"123456\"\n}"
 			},
 			"created": 1530138692882,
 			"description": "",
@@ -102,7 +152,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1530140729145,
 			"method": "POST",
-			"modified": 1530579100988,
+			"modified": 1530584052484,
 			"name": "Register",
 			"parameters": [],
 			"parentId": "fld_274e262dcb994a669dddf7536f95ec26",
